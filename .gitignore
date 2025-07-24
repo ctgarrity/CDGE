@@ -1,0 +1,42 @@
+# --- JetBrains CLion ---
+.idea/
+!.idea/codeStyles
+!.idea/compiler.xml
+!.idea/cmake.xml
+!.idea/runConfigurations
+*.iml
+
+# --- CMake build artifacts ---
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# --- Build output ---
+/build/
+/out/
+/bin/
+/lib/
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.log
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- Backup/Editor files ---
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# --- CLion venvs (if using Python plugins) ---
+.venv/
