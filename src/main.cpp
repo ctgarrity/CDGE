@@ -1,12 +1,7 @@
-#define VOLK_IMPLEMENTATION
-#include "external/volk.h"
 
-#include <iostream>
+
+#include "Renderer.h"
 
 int main() {
-    std::cout << "Hello, vulkan!" << std::endl;
-
-    if (volkInitialize() == VK_SUCCESS) {
-        std::cout << "Volk initialized!" << std::endl;
-    }
+    Renderer renderer;
 }
